@@ -692,7 +692,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 826064098}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 047c5a760b93e4fca9ba4712b7a46e45, type: 3}
   m_Name: 
@@ -1038,6 +1038,8 @@ GameObject:
   - component: {fileID: 1500961355}
   - component: {fileID: 1500961354}
   - component: {fileID: 1500961359}
+  - component: {fileID: 1500961360}
+  - component: {fileID: 1500961361}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -1147,6 +1149,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8ba48e5b07df44078bc9fb2e833e4de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scaleChange: {x: 0.01, y: 0.01, z: 0.01}
+--- !u!114 &1500961360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500961353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df8532fcc4b424c8da35822c96af4abd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  positionChange: {x: 0.01, y: 0.01, z: 0.01}
+--- !u!114 &1500961361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500961353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9ca08709b47747d4ad51a515724813e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotateChange: {x: 10, y: 10, z: 10}
 --- !u!1 &1648372621
 GameObject:
   m_ObjectHideFlags: 0
@@ -1267,8 +1296,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1778437099}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0.006, y: 0.31200004, z: -0.739}
-  m_LocalScale: {x: 0.3, y: 1, z: 2}
+  m_LocalPosition: {x: 0.006, y: 2.0563, z: -0.739}
+  m_LocalScale: {x: 0.3, y: 4.488636, z: 2.000001}
   m_Children: []
   m_Father: {fileID: 1930948651}
   m_RootOrder: 3
